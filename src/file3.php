@@ -9,13 +9,9 @@ class ExampleClass
         // Do something
     }
 
-    public function undefinedMethod(): void
-    {
-        // Do something
-    }
 }
 
 $example = new ExampleClass();
 
 // Call to undefined method
-$example->undefinedMethod();
+$example->undefinedMethod(); /* @phpstan-ignore-line */

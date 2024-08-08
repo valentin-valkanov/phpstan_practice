@@ -3,5 +3,5 @@
 declare(strict_types=1);
 
 // Simple mistake: Undefined variable
-$undefinedVariable = 'foo';
+/** @phpstan-ignore-next-line */
 echo $undefinedVariable;
