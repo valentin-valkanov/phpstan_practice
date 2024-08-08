@@ -14,4 +14,4 @@ class ExampleClass
 $example = new ExampleClass();
 
 // Call to undefined method
-$example->undefinedMethod(); /* @phpstan-ignore-line */
+$example->undefinedMethod();
